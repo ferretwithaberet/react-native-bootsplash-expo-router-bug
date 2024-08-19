@@ -11,8 +11,7 @@ import "react-native-reanimated";
 
 import { useColorScheme } from "@/hooks/useColorScheme";
 
-// Prevent the splash screen from auto-hiding before asset loading is complete.
-// SplashScreen.preventAutoHideAsync(); // Even with this line uncommented, the react-native-bootsplash splash hides automatically
+// SplashScreen.preventAutoHideAsync(); // Even with expo-splash-screen installed and this line uncommented, the react-native-bootsplash splash hides automatically
 
 export default function RootLayout() {
   const colorScheme = useColorScheme();
